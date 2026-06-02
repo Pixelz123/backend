@@ -1,0 +1,15 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: backend
+  datasource:
+    url: postgresql://postgres:vmB5Q7H?$e,5p9b@db.pdkigmtonkmetwytbayp.supabase.co:5432/postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
